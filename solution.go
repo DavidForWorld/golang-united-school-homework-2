@@ -1,8 +1,5 @@
 package square
-import (
-	"fmt"
-	"math"
-)
+import "math"
 type calculator int
 const (
 	SidesSquare   = 4
