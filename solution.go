@@ -13,22 +13,18 @@ const (
 )
 
 func CalcSquare(sideLen float64, sidesNum calculator) float64 {
-	if calculator = SidesSquare {
+	if sidesNum == SidesSquare {
 		return math.Pow(sideLen, 2)
 	}
-	fmt.Println(CalcSquare(10.0))
 
-	if calculator = SidesTriangle {
+	if sidesNum == SidesTriangle {
 		return (sideLen * sideLen) * ((math.Sqrt(3)) / 4)
 	}
-	fmt.Println(CalcSquare(10.0))
 
-	if calculator = SidesCircle {
+	if sidesNum == SidesCircle {
 		return math.Pi * math.Pow(sideLen, 2)
 	}
-	fmt.Println(CalcSquare(10.0))
+
 } else
 return 0
 }
-
-
